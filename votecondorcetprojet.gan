@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2021-10-25" view-index="0" gantt-divider-location="473" resource-divider-location="300" version="3.1.3103" locale="fr_FR">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2021-10-18" view-index="0" gantt-divider-location="457" resource-divider-location="300" version="3.1.3103" locale="fr_FR">
     <description/>
     <view zooming-state="default:7" id="gantt-chart">
-        <field id="tpd3" name="Nom" width="218" order="0"/>
-        <field id="tpd4" name="Date de début" width="124" order="1"/>
-        <field id="tpd5" name="Date de fin" width="124" order="2"/>
+        <field id="tpd3" name="Nom" width="210" order="0"/>
+        <field id="tpd4" name="Date de début" width="120" order="1"/>
+        <field id="tpd5" name="Date de fin" width="120" order="2"/>
     </view>
     <view id="resource-table">
         <field id="0" name="Nom" width="208" order="0"/>
@@ -45,22 +45,31 @@ et autres fichiers donnés depuis moodle ]]>
             </task>
             <task id="16" name="lecture projet" color="#8cb6ce" meeting="false" start="2021-11-03" duration="3" complete="0" thirdDate="2021-11-03" thirdDate-constraint="0" expand="true"/>
             <task id="17" name="planning gantt" meeting="false" start="2021-11-03" duration="1" complete="0" expand="true"/>
-            <task id="60" name="planning gantt 2" color="#8cb6ce" meeting="false" start="2021-12-04" duration="1" complete="0" thirdDate="2021-10-25" thirdDate-constraint="0" expand="true">
+            <task id="60" name="Bilan &amp; gantt 2" color="#8cb6ce" meeting="false" start="2021-12-04" duration="1" complete="0" thirdDate="2021-10-25" thirdDate-constraint="0" expand="true">
                 <notes>
                     <![CDATA[deuxieme planing gantt qui tient compte de la difficulté de chacune des taches ]]>
                 </notes>
             </task>
             <task id="63" name="mettre le doxyfile" color="#8cb6ce" meeting="false" start="2021-11-05" duration="1" complete="0" thirdDate="2021-10-25" thirdDate-constraint="0" expand="true"/>
+            <task id="64" name="mise en place du makefile" color="#8cb6ce" meeting="false" start="2021-11-11" duration="1" complete="0" thirdDate="2021-10-25" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[à faire pendant le pont pour commencer à compiler correctement le projet]]>
+                </notes>
+            </task>
         </task>
         <task id="22" name="dépot prévisionnel" meeting="false" start="2021-11-08" duration="1" complete="0" expand="true"/>
-        <task id="0" name="développement" color="#8cb6ce" meeting="false" start="2021-11-09" duration="60" complete="0" thirdDate="2021-11-09" thirdDate-constraint="0" expand="true">
+        <task id="0" name="développement" color="#8cb6ce" meeting="false" start="2021-10-25" duration="75" complete="0" thirdDate="2021-11-09" thirdDate-constraint="0" expand="true">
             <task id="2" name="utils_sd" color="#8cb6ce" meeting="false" start="2021-11-12" duration="1" complete="0" thirdDate="2021-11-09" thirdDate-constraint="0" expand="true"/>
+            <task id="70" name="mise en place Headers" meeting="false" start="2021-10-25" duration="1" complete="0" expand="true"/>
             <task id="30" name="implémenter code" color="#8cb6ce" meeting="false" start="2021-11-13" duration="1" complete="0" thirdDate="2021-10-29" thirdDate-constraint="0" expand="true"/>
             <task id="3" name="listes" color="#8cb6ce" meeting="false" start="2021-11-14" duration="1" complete="0" thirdDate="2021-11-09" thirdDate-constraint="0" expand="true"/>
             <task id="4" name="lecture csv" color="#8cb6ce" meeting="false" start="2021-11-20" duration="1" complete="0" thirdDate="2021-11-09" thirdDate-constraint="0" expand="true"/>
             <task id="5" name="hash code + verif" color="#8cb6ce" meeting="false" start="2021-11-27" duration="1" complete="0" thirdDate="2021-11-09" thirdDate-constraint="0" expand="true"/>
-            <task id="12" name="main &amp; balises" color="#8cb6ce" meeting="false" start="2021-11-28" duration="1" complete="0" thirdDate="2021-11-09" thirdDate-constraint="0" expand="true"/>
-            <task id="6" name="votes" color="#000000" meeting="false" start="2021-12-16" duration="6" complete="0" thirdDate="2021-11-09" thirdDate-constraint="0" expand="false">
+            <task id="12" name="main &amp; balises" color="#8cb6ce" meeting="false" start="2021-12-20" duration="2" complete="0" thirdDate="2021-11-09" thirdDate-constraint="0" expand="true">
+                <task id="71" name="fonctions affichages" color="#8cb6ce" meeting="false" start="2021-12-20" duration="1" complete="0" thirdDate="2021-10-25" thirdDate-constraint="0" expand="true"/>
+                <task id="72" name="fonctions de construiction du code" color="#8cb6ce" meeting="false" start="2021-12-21" duration="1" complete="0" thirdDate="2021-10-25" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="6" name="votes" color="#000000" meeting="false" start="2021-12-16" duration="6" complete="0" thirdDate="2021-11-09" thirdDate-constraint="0" expand="true">
                 <task id="8" name="uninominales" color="#8cb6ce" meeting="false" start="2021-12-16" duration="2" complete="0" thirdDate="2021-11-09" thirdDate-constraint="0" expand="true"/>
                 <task id="9" name="conforcet minimax" color="#8cb6ce" meeting="false" start="2021-12-17" duration="2" complete="0" thirdDate="2021-11-09" thirdDate-constraint="0" expand="true"/>
                 <task id="10" name="condorcet schulze" color="#8cb6ce" meeting="false" start="2021-12-20" duration="2" complete="0" thirdDate="2021-11-09" thirdDate-constraint="0" expand="true"/>
@@ -69,7 +78,11 @@ et autres fichiers donnés depuis moodle ]]>
             <task id="28" name="prinipe générale du programme" color="#8cb6ce" meeting="false" start="2021-11-11" duration="1" complete="0" thirdDate="2021-10-11" thirdDate-constraint="0" expand="true"/>
         </task>
         <task id="61" name="bilan du projet" color="#8cb6ce" meeting="false" start="2021-12-05" duration="1" complete="0" thirdDate="2021-10-25" thirdDate-constraint="0" expand="true"/>
-        <task id="19" name="tests &amp; review" color="#8cb6ce" meeting="false" start="2021-11-09" duration="60" complete="0" thirdDate="2021-11-09" thirdDate-constraint="0" expand="true"/>
+        <task id="19" name="tests &amp; review" color="#8cb6ce" meeting="false" start="2021-11-09" duration="60" complete="0" thirdDate="2021-11-09" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[les test review respect les principe de plan do review PDR; après le premier cycle on va faire une review des elements pour ajouter supprimer ou modifier afin de corriger et d'ameliorer les elements du proejts]]>
+            </notes>
+        </task>
     </tasks>
     <resources/>
     <allocations/>
