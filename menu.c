@@ -5,16 +5,17 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+
+
 void menu(){
     char rep;
-
-    while(rep!= 0){
-        printf("                -----------------------------\n           "
-               "               |        Les votes            |\n          "
-               "               |                             |\n          "
+    do{
+        printf(" \n"
+               "\t                  -----------------------------\n           "
+               "              |      Les votes             |\n          "
+               "               |                            |\n          "
                "                -----------------------------\n           "
-               "               "
-               ""
+               " \n"
                " ----------------------------------------------------------\n"
                "|  ->1) methodes de condorcet                              |\n"
                "|  ->2) condorcet minimax                                  |\n"
@@ -22,7 +23,9 @@ void menu(){
                "|  ->4) uninominales                                       |\n"
                "|  ->0) Quitter                                            |\n"
                " ----------------------------------------------------------\n");
-    }
+    } while (rep!=0);
+    scanf("%c", &rep);
+
     switch (rep) {
         case '1' :
             printf("appel methode condorcet");
@@ -37,4 +40,9 @@ void menu(){
             printf("appel method uninominales");
             break;
     }
+}
+
+int main() {
+    menu();
+    return 0;
 }
